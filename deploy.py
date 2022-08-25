@@ -40,8 +40,8 @@ w3 = Web3(Web3.HTTPProvider("https://rinkeby.infura.io/v3/379d2d85420a445cb0f197
 chain_id = 4
 # my_address = "0x280De3f967A3c010AEf7ff0D2036D5199AD2B279"
 my_address = "0xdB01d94217308046a792D864b16A35837aa52B86"
-# private_key = "0x1e2aa4caf886608594a7d1cd9355b043ea49f914775cbe674cd495f3c5bbf3dd"
-private_key = "b40160445eefcaf633fe33063504955998f1e3636df2d6edb7055172a68ed440"
+# private_key = 
+private_key = "{privatekey}"
 
 # deploying python contart
 simpleStorage = w3.eth.contract(abi=abi, bytecode=bytecode)
